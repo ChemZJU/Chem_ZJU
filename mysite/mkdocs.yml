@@ -109,11 +109,13 @@ theme:
     #- toc.integrate #合并左右边栏
     - navigation.instant
     - navigation.tabs
-    - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - navigation.indexes
+    - navigation.footer
+    - content.action.edit
+    - content.code.annotate
   language: zh
   name: material
   palette:
@@ -145,5 +147,6 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/custom.css
 
 
