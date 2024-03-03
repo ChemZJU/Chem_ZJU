@@ -10,6 +10,7 @@ copyright: Copyright &copy; 2023-2024 浙江大学求化班
 nav:
   - Home: index.md
   - 数理基础课:
+    - Basic/index.md
     - 普通化学(甲): Basic/普通化学(甲).md
     - 微积分Ⅰ: Basic/Calculus1(H).md
     - 微积分Ⅱ: Basic/Calculus2(H).md
@@ -119,16 +120,16 @@ theme:
     
     # Toggle light mode
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: yellow
+      accent: yellow
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
 
     # Toggle dark mode
     - scheme: slate
-      primary: blue
-      accent: blue
+      primary: yellow
+      accent: yellow
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
@@ -141,4 +142,8 @@ theme:
 markdown_extensions:
   - toc:
       permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+
 
