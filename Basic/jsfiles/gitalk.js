@@ -9,3 +9,4 @@ const gitalk = new gitalk({
   })
   
   gitalk.render('gitalk-container')
+
