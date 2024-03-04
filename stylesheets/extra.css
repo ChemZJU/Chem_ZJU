@@ -1,0 +1,21 @@
+:root {
+    --md-primary-fg-color:        #EE0F0F;
+    --md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark:  #90030C;
+  }
+/* 修改标题样式 */
+h1 {
+    color: #35312f;
+    font-size: 24px;
+  }
+  
+  /* 修改链接样式 */
+a {
+    color: rgb(146, 94, 61);
+    
+  }
+  
+  /* 修改列表样式 */
+ul {
+    list-style-type: square;
+  }
