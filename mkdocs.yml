@@ -149,7 +149,8 @@ extra_css:
   - stylesheets/extra.css
   - stylesheets/custom.css
   - stylesheets/label.css
- 
-extra_javascript:
-  - .giscus/config.json
+
+
+
+
 
