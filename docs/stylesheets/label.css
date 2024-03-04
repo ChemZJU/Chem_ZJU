@@ -1,0 +1,32 @@
+.labors {
+    margin-top: -2em;
+  }
+  
+  .labor {
+    display: inline-block;
+    padding: 0.2em 0.4em;
+    font-size: 85%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+  }
+  .CourseDifficulty {
+    background-color: #d56262;
+    color: #161616;
+  }
+  .HwDifficulty {
+    background-color: #47c176;
+    color: #161616;
+  }
+  .ExamDifficulty {
+    background-color: #4ec8e3;
+    color: #161616;
+  }
+  [data-md-color-scheme="default"] .CourseDifficulty,
+  [data-md-color-scheme="default"] .HwDifficulty,
+  [data-md-color-scheme="default"] .ExamDifficulty {
+    color: #FFFFFF;
+  }
