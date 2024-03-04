@@ -3,7 +3,7 @@ site_url: https://wing0night.github.io/Chem_ZJU/
 site_description: 求化班学习指南
 repo_name: wing0night/Chem_ZJU
 repo_url: https://github.com/wing0night/Chem_ZJU
-edit_uri: tree/master/docs
+edit_uri: tree/master/mysite/docs
 
 copyright: Copyright &copy; 2023-2024 浙江大学求化班
 
