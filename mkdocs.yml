@@ -1,0 +1,152 @@
+site_name: 求化班学习指南
+site_url: https://wing0night.github.io/Chem_ZJU/
+site_description: 求化班学习指南
+repo_name: wing0night/Chem_ZJU
+repo_url: https://github.com/wing0night/Chem_ZJU
+edit_uri: tree/master/docs
+
+copyright: Copyright &copy; 2023-2024 浙江大学求化班
+
+nav:
+  - Home: index.md
+  - 数理基础课:
+    - mysite/Basic/index.md
+    - 普通化学(甲): mysite/Basic/普通化学(甲).md
+    - 微积分Ⅰ: mysite/Basic/Calculus1(H).md
+    - 微积分Ⅱ: mysite/Basic/Calculus2(H).md
+    - 线性代数: mysite/Basic/LinearAlgebra.md
+    - 普通物理学Ⅰ(H): mysite/Basic/Physics1(H).md
+    - 普通物理学Ⅱ(H): mysite/Basic/Physics2(H).md
+    - 普通物理学实验Ⅰ(H): mysite/Basic/普通物理学实验1(H).md
+    - 普通物理学实验Ⅱ(H): mysite/Basic/普通物理学实验2(H).md
+  - 专业必修:
+    - 分析化学Ⅰ: mysite/CompulsoryMajorCourse/分析化学1.md
+    - 分析化学Ⅱ: mysite/CompulsoryMajorCourse/分析化学2.md
+    - 结构化学: mysite/CompulsoryMajorCourse/结构化学.md
+    - 谱学基础: mysite/CompulsoryMajorCourse/谱学基础.md
+    - 无机和分析化学实验: mysite/CompulsoryMajorCourse/无机和分析化学实验.md
+    - 无机化学: mysite/CompulsoryMajorCourse/无机化学.md
+    - 物理化学Ⅰ: mysite/CompulsoryMajorCourse/物理化学1.md
+    - 物理化学Ⅱ: mysite/CompulsoryMajorCourse/物理化学2.md
+    - 物理化学Ⅲ: mysite/CompulsoryMajorCourse/物理化学3.md
+    - 物理化学实验: mysite/CompulsoryMajorCourse/物理化学实验.md
+    - 仪器分析实验: mysite/CompulsoryMajorCourse/仪器分析实验.md
+    - 有机化学Ⅰ: mysite/CompulsoryMajorCourse/有机化学1.md
+    - 有机化学Ⅱ: mysite/CompulsoryMajorCourse/有机化学2.md
+    - 有机化学Ⅲ: mysite/CompulsoryMajorCourse/有机化学3.md
+    - 有机化学实验: mysite/CompulsoryMajorCourse/有机化学实验.md
+    - 专业英语: mysite/CompulsoryMajorCourse/专业英语.md
+  - 专业选修:
+    - 实验:
+      - 化工原理及实验: mysite/ElectiveMajorCourse/Experiment/化工原理及实验.md
+      - 化学生物学实验: mysite/ElectiveMajorCourse/Experiment/化学生物学实验.md
+      - 探索性化学实验: mysite/ElectiveMajorCourse/Experiment/探索性化学实验.md
+      - 有机合成实验: mysite/ElectiveMajorCourse/Experiment/有机合成实验.md
+    - 分析化学模块:
+      - 色谱分析: mysite/ElectiveMajorCourse/AnalyticalChemistry/色谱分析.md
+      - 生物分析化学: mysite/ElectiveMajorCourse/AnalyticalChemistry/生物分析化学.md
+    - 无机化学模块:
+      - 材料化学: mysite/ElectiveMajorCourse/InorganicChemistry/材料化学.md
+      - 配位化学: mysite/ElectiveMajorCourse/InorganicChemistry/配位化学.md
+    - 有机化学模块:
+      - 金属有机化学: mysite/ElectiveMajorCourse/OrganicChemistry/金属有机化学.md
+      - 物理有机化学: mysite/ElectiveMajorCourse/OrganicChemistry/物理有机化学.md
+      - 有机波谱分析: mysite/ElectiveMajorCourse/OrganicChemistry/有机波谱分析.md
+      - 有机合成: mysite/ElectiveMajorCourse/OrganicChemistry/有机合成.md
+    - 物理化学模块:
+      - 催化化学: mysite/ElectiveMajorCourse/PhysicalChemistry/催化化学.md
+      - 电化学: mysite/ElectiveMajorCourse/PhysicalChemistry/电化学.md
+      - 光化学: mysite/ElectiveMajorCourse/PhysicalChemistry/光化学.md
+      - 量子化学: mysite/ElectiveMajorCourse/PhysicalChemistry/量子化学.md
+      - 统计热力学: mysite/ElectiveMajorCourse/PhysicalChemistry/统计热力学.md
+  - 思政类:
+    - 马克思主义基本原理(H): mysite/Ideology and politics/马克思主义基本原理(H).md
+    - 毛概: mysite/Ideology and politics/毛概.md
+    - 思想道德与法治: mysite/Ideology and politics/思想道德与法治.md
+    - 习概: mysite/Ideology and politics/习概.md
+    - 形势与政策Ⅰ&Ⅱ: mysite/Ideology and politics/形势与政策Ⅰ&Ⅱ.md
+    - 中国近代史纲要: mysite/Ideology and politics/中国近代史纲要.md
+    - 选修课:
+      - 社会主义发展史: mysite/Ideology and politics/elective course/社会主义发展史.md
+      - 新中国史: mysite/Ideology and politics/elective course/新中国史.md
+      - 中国改革开放史: mysite/Ideology and politics/elective course/中国改革开放史.md
+      - 中国共产党历史: mysite/Ideology and politics/elective course/中国共产党历史.md
+  - 实践教学:
+    - 化学前沿专题研讨: mysite/Practice/化学前沿专题研讨.md
+    - 化学专业技能强化训练: mysite/Practice/化学专业技能强化训练.md
+    - 现代化学方法论: mysite/Practice/现代化学方法论.md
+    - 卓越化学计划科研实训: mysite/Practice/卓越化学计划科研实训.md
+  - 通识课:
+    - 创新创业:
+      - 职业生涯规划: mysite/GeneralKnowledge/创新创业/职规.md
+    - 劳育:
+      - 化学专业技能强化训练: mysite/GeneralKnowledge/劳育/化学专业技能强化训练.md
+    - 美育:
+      - 视唱练耳: mysite/GeneralKnowledge/美育/视唱练耳.md
+    - 通识核心:
+      - 当代科学哲学问题: mysite/GeneralKnowledge/通识核心/当代科学哲学问题.md
+    - Other:
+      - 新一代人工智能与预训练大模型导论: mysite/GeneralKnowledge/Other/新一代人工智能与预训练大模型导论.md
+  - 个性修读模块:
+    - 生物科学:
+      - 生物化学(甲): mysite/Personalized/Biology/生物化学甲.md
+    - 化工:
+      - 过程建模与仿真: mysite/Personalized/ChemicalEngineering/过程建模与仿真.md
+    - 化学:
+      - 化学信息学: mysite/Personalized/Chemistry/化学信息学.md
+    - 药学:
+      - 药物化学: mysite/Personalized/Drug/药物化学.md
+    - 能源:
+      - 工程热力学: mysite/Personalized/Energy/工程热力学.md
+    - 高分子:
+      - 高分子化学甲: mysite/Personalized/Macromolecule/高分子化学甲.md
+    - 材料:
+      - 半导体材料: mysite/Personalized/Material/半导体材料.md
+    - 数学:
+      - 概率论与数理统计: mysite/Personalized/Mathematics/概率论与数理统计.md
+theme:
+  features:
+    #- toc.integrate #合并左右边栏
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.footer
+    - content.action.edit
+    - content.code.annotate
+  language: zh
+  name: material
+  palette:
+    
+    # Toggle light mode
+    - scheme: default
+      primary: yellow
+      accent: yellow
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+    # Toggle dark mode
+    - scheme: slate
+      primary: yellow
+      accent: yellow
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+  
+
+  font:
+    text: Roboto
+
+markdown_extensions:
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/custom.css
+
+
