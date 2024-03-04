@@ -8,7 +8,7 @@ edit_uri: tree/master/docs
 copyright: Copyright &copy; 2023-2024 浙江大学求化班
 
 nav:
-  - Home: readme.md
+  - Home: index.md
   - 数理基础课:
     - Basic/index.md
     - 普通化学(甲): Basic/普通化学(甲).md
