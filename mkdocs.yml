@@ -148,7 +148,6 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/custom.css
+ 
 
-extra_javascipt:
-  - add.js
 
