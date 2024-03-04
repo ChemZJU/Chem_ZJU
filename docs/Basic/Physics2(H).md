@@ -3,7 +3,7 @@
 <span class="labor HwDifficulty">作业难度 xxx</span>
 <span class="labor ExamDifficulty">考试难度 xxx</span>
 </div>
-## 课程名称 普通物理学Ⅱ(H)
+
 
 ### 学习内容
 
