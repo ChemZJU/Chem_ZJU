@@ -19,7 +19,6 @@ nav:
     - 普通物理学Ⅱ(H): Basic/Physics2(H).md
     - 普通物理学实验Ⅰ(H): Basic/普通物理学实验1(H).md
     - 普通物理学实验Ⅱ(H): Basic/普通物理学实验2(H).md
-    - Example: Basic/Example.md
   - 专业必修:
     - 分析化学Ⅰ: CompulsoryMajorCourse/分析化学1.md
     - 分析化学Ⅱ: CompulsoryMajorCourse/分析化学2.md
@@ -120,6 +119,7 @@ theme:
   language: zh
   name: material
   custom_dir: overrides
+  logo: 'icons/Favorites.png'
   palette:
     
     # Toggle light mode
