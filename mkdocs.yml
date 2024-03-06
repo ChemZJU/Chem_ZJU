@@ -19,6 +19,7 @@ nav:
     - 普通物理学Ⅱ(H): Basic/Physics2(H).md
     - 普通物理学实验Ⅰ(H): Basic/普通物理学实验1(H).md
     - 普通物理学实验Ⅱ(H): Basic/普通物理学实验2(H).md
+    - Example: Basic/Example.md
   - 专业必修:
     - 分析化学Ⅰ: CompulsoryMajorCourse/分析化学1.md
     - 分析化学Ⅱ: CompulsoryMajorCourse/分析化学2.md
@@ -145,6 +146,25 @@ theme:
 markdown_extensions:
   - toc:
       permalink: true
+  - pymdownx.details # 需要点击才能展开的高亮块
+  - pymdownx.blocks.admonition: # 必然展开的高亮块
+      types:
+      - new # type 能填哪些项，从这里就能找到
+      - settings
+      - note
+      - abstract
+      - info
+      - tip
+      - success
+      - question
+      - warning
+      - failure
+      - danger
+      - bug
+      - example
+      - quote
+  - pymdownx.blocks.tab:
+      alternate_style: True
 
 extra_css:
   - stylesheets/extra.css
