@@ -121,7 +121,6 @@ theme:
   custom_dir: overrides
   logo: 'icons/Favorites.png'
   palette:
-    
     # Toggle light mode
     - scheme: default
       primary: yellow
@@ -167,9 +166,10 @@ markdown_extensions:
       alternate_style: True
 
 extra_css:
-  - stylesheets/extra.css
-  - stylesheets/custom.css
-  - stylesheets/label.css
+  - CSS/extra.css
+  - CSS/card.css
+  - CSS/label.css
+  - CSS/custom.css
 
 
 
