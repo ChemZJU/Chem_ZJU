@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Welcome to Chem_ZJU
 
 This website was constructed  for guidance for members study at department of chemistry in ZJU. Especially students in the honored class, whose training plan is just what we according to for building the website.
