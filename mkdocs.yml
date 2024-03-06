@@ -118,6 +118,7 @@ theme:
     - content.code.annotate
   language: zh
   name: material
+  custom_dir: overrides
   palette:
     
     # Toggle light mode
