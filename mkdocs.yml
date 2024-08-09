@@ -5,7 +5,7 @@ repo_name: wing0night/Chem_ZJU
 repo_url: https://github.com/wing0night/Chem_ZJU
 edit_uri: tree/master/docs
 
-copyright: Copyright &copy; 2024 浙江大学化学系
+copyright: Copyright &copy; 2024 Chem_ZJU
 
 nav:
   - Home: index.md
@@ -168,6 +168,21 @@ markdown_extensions:
       - quote
   - pymdownx.blocks.tab:
       alternate_style: True
+
+plugins:
+  - git-revision-date-localized:
+      type: datetime
+      timezone: Asia/Shanghai
+      locale: zh
+      enable_creation_date: true
+  - search:
+      separator: '[\s\-\.]+'
+  - git-committers:
+      repository: wing0night/Chem_ZJU
+      branch: master
+  - statistics:
+      words_per_minute: 200
+  - glightbox
 
 extra_css:
   - CSS/extra.css
