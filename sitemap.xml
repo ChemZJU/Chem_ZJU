@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://wing0night.github.io/Chem_ZJU/</loc>
+         <loc>https://wing0night.github.io/Chem_ZJU/Appendix/HowToContribute/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://wing0night.github.io/Chem_ZJU/Appendix/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
          <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -237,6 +242,11 @@
     </url>
     <url>
          <loc>https://wing0night.github.io/Chem_ZJU/GeneralKnowledge/%E9%80%9A%E8%AF%86%E6%A0%B8%E5%BF%83/%E5%BD%93%E4%BB%A3%E7%A7%91%E5%AD%A6%E5%93%B2%E5%AD%A6%E9%97%AE%E9%A2%98/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://wing0night.github.io/Chem_ZJU/Home/</loc>
          <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
