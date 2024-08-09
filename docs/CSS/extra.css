@@ -5,7 +5,15 @@
   }
 /* 修改标题样式 */
 h1 {
-    color: #35312f;
+    color: #a65329;
+    font-size: 24px;
+  }
+h2 {
+    color: #b8521f;
+    font-size: 24px;
+  }
+h3 {
+    color: #c6a307;
     font-size: 24px;
   }
   
