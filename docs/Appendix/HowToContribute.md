@@ -13,6 +13,8 @@
 
 GithubDesktop推送的本质实际上就是把git命令行的操作集成到图形化的按钮中，按下按钮就相当于在gitbash命令行中输入推送的指令
 
+推送完成后需要在网页端创建Pull Request
+
 ## 方法2（git 命令行）
 使用gitbash命令行
 
@@ -39,6 +41,8 @@ git push -u 仓库名称 分支
 ```
 这一步是推送到github服务器，所以需要科学上网环境喔
 
+推送完成后需要创建Pull Request（PR），这样项目管理者可以看到你的修改并merge到主要分支中
+
 ## 方法3（适合初学者尝试推送过程）
 直接在github网页进行修改和commit
 
@@ -53,7 +57,7 @@ fork项目到自己的repositories中，进入docs文件夹，比如想要修改
 
 ![alt text](images/image-3.png)
 
-修改完成后可以创建一个pull request(PR)，这样仓库管理者就可以在他们自己那里看到你的PR，并添加到主要分支中。这个时候github page自动实现部署，你的修改就可以在网页上看到啦~
+修改完成后可以创建一个pull request，这样仓库管理者就可以在他们自己那里看到你的PR，并添加到主要分支中。这个时候github page自动实现部署，你的修改就可以在网页上看到啦~
 
 ![alt text](images/image-4.png)
 
