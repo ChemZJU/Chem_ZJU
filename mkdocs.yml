@@ -8,7 +8,7 @@ edit_uri: tree/master/docs
 copyright: Copyright &copy; 2024 浙江大学化学系
 
 nav:
-  - Home: index.md
+  - Home: Home/index.md
   - 数理基础课:
     - Basic/index.md
     - 普通化学(甲): Basic/普通化学(甲).md
@@ -104,6 +104,9 @@ nav:
       - 半导体材料: Personalized/Material/半导体材料.md
     - 数学:
       - 概率论与数理统计: Personalized/Mathematics/概率论与数理统计.md
+  - Appendix:
+    - How to contribute: Appendix/HowToContribute.md
+    - 科学上网: Appendix/科学上网.md
 theme:
   features:
     #- toc.integrate #合并左右边栏
