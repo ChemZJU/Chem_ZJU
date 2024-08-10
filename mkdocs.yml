@@ -5,7 +5,7 @@ repo_name: wing0night/Chem_ZJU
 repo_url: https://github.com/wing0night/Chem_ZJU
 edit_uri: tree/master/docs
 
-copyright: Copyright &copy; 2024 浙江大学化学系
+copyright: Copyright &copy; 2024 Chem_ZJU
 
 nav:
   - Home: index.md
@@ -36,6 +36,8 @@ nav:
     - 有机化学Ⅲ: CompulsoryMajorCourse/有机化学3.md
     - 有机化学实验: CompulsoryMajorCourse/有机化学实验.md
     - 专业英语: CompulsoryMajorCourse/专业英语.md
+
+    - 分析化学Ⅱ-求化: CompulsoryMajorCourse/分析化学2-求化.md
   - 专业选修:
     - 实验:
       - 化工原理及实验: ElectiveMajorCourse/Experiment/化工原理及实验.md
@@ -104,6 +106,9 @@ nav:
       - 半导体材料: Personalized/Material/半导体材料.md
     - 数学:
       - 概率论与数理统计: Personalized/Mathematics/概率论与数理统计.md
+  - Appendix:
+    - How to contribute: Appendix/HowToContribute.md
+    - 科学上网: Appendix/科学上网.md
 theme:
   features:
     #- toc.integrate #合并左右边栏
@@ -126,18 +131,20 @@ theme:
       primary: yellow
       accent: yellow
       toggle:
-        icon: material/weather-sunny
+        icon: material/weather-night
         name: Switch to light mode
-
+  
     # Toggle dark mode
     - scheme: slate
       primary: yellow
       accent: yellow
       toggle:
-        icon: material/weather-night
+        icon: material/weather-sunny
         name: Switch to dark mode
 
-  
+  favicon: 'icons/Favorites.png'
+  custom_dir: overrides
+  logo: 'images/Bookmark.png'
 
   font:
     text: Roboto
@@ -145,6 +152,17 @@ theme:
 markdown_extensions:
   - toc:
       permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - tables
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
   - pymdownx.details # 需要点击才能展开的高亮块
   - pymdownx.blocks.admonition: # 必然展开的高亮块
       types:
@@ -164,13 +182,52 @@ markdown_extensions:
       - quote
   - pymdownx.blocks.tab:
       alternate_style: True
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - git-revision-date-localized:
+      type: datetime
+      timezone: Asia/Shanghai
+      locale: zh
+      enable_creation_date: true
+  - search:
+      separator: '[\s\-\.]+'
+  - git-committers:
+      repository: wing0night/Chem_ZJU
+      branch: master
+  - statistics:
+      words_per_minute: 200
+  - glightbox
 
 extra_css:
   - CSS/extra.css
   - CSS/card.css
   - CSS/label.css
   - CSS/custom.css
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.1.0/style.css
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-webfont@1.0.0/style.css
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
 
+# 导入的js文件解决markdown中的数学公式显示问题
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
+  - JS/mathjax.js
+  - JS/katex.js
 
 
 

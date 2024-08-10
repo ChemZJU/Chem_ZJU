@@ -5,7 +5,15 @@
   }
 /* 修改标题样式 */
 h1 {
-    color: #35312f;
+    color: #a65329;
+    font-size: 24px;
+  }
+h2 {
+    color: #b8521f;
+    font-size: 24px;
+  }
+h3 {
+    color: #c6a307;
     font-size: 24px;
   }
   
@@ -13,9 +21,29 @@ h1 {
 a {
     color: rgb(146, 94, 61);
     
-  }
+  } 
   
   /* 修改列表样式 */
 ul {
     list-style-type: square;
   }
+
+  body{
+    /* font-family: "LXGW WenKai", sans-serif; */
+    /* Lite version */
+    /* font-family: "LXGW WenKai Lite", sans-serif; */
+    /* TC version */
+    /* font-family: "LXGW WenKai TC", sans-serif; */
+    /* Screen version */
+    /* font-family: "LXGW WenKai Screen", sans-serif; */
+  }
+  
+  /* :root{
+  --md-code-font: "LXGW WenKai";
+  } */
+  
+  
+  
+    
+  
+  
