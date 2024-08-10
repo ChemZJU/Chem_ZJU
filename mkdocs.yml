@@ -36,6 +36,8 @@ nav:
     - 有机化学Ⅲ: CompulsoryMajorCourse/有机化学3.md
     - 有机化学实验: CompulsoryMajorCourse/有机化学实验.md
     - 专业英语: CompulsoryMajorCourse/专业英语.md
+
+    - 分析化学Ⅱ-求化: CompulsoryMajorCourse/分析化学2-求化.md
   - 专业选修:
     - 实验:
       - 化工原理及实验: ElectiveMajorCourse/Experiment/化工原理及实验.md
@@ -131,8 +133,7 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
-      
-
+  
     # Toggle dark mode
     - scheme: slate
       primary: yellow
@@ -147,6 +148,17 @@ theme:
     text: Roboto
 
 markdown_extensions:
+  - md_in_html
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - tables
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
   - toc:
       permalink: true
   - pymdownx.details # 需要点击才能展开的高亮块
@@ -168,7 +180,6 @@ markdown_extensions:
       - quote
   - pymdownx.blocks.tab:
       alternate_style: True
-  - md_in_html
 
 plugins:
   - git-revision-date-localized:
