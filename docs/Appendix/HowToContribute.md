@@ -1,5 +1,7 @@
 本项目contribute主要是修改和添加docs里面的md文件，欢迎同学们积极贡献呀🤩为开源体系建设出一份力~
 
+contributor的github账号会展示在相应的页面下方
+
 项目地址：https://github.com/wing0night/Chem_ZJU
 
 方法1和方法2需要先下载git。git下载，以及绑定github账号可以参考这篇blog~ https://blog.csdn.net/goog_man/article/details/94583391
