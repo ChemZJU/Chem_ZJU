@@ -142,7 +142,9 @@ theme:
         icon: material/weather-sunny
         name: Switch to dark mode
 
-  
+  favicon: 'icons/Favorites.png'
+  custom_dir: overrides
+  logo: 'icons/Services.png'
 
   font:
     text: Roboto
@@ -201,7 +203,17 @@ extra_css:
   - CSS/card.css
   - CSS/label.css
   - CSS/custom.css
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.1.0/style.css
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-webfont@1.0.0/style.css
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
 
+# 导入的js文件解决markdown中的数学公式显示问题
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
+  - JS/mathjax.js
+  - JS/katex.js
 
 
 
