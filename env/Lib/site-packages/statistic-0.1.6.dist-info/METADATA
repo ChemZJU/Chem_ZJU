@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: statistic
+Version: 0.1.6
+Summary: projeto contendo varios metodos e funções estatisticos
+Home-page: https://github.com/welitonsousa/statistic
+Author: Weliton Sousa e Darice Sousa
+Author-email: welitonubuntu@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/welitonsousa/statistic/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Statistic
+
+Esta biblioteca foi desenvolvida com o intuito de unir um grande acerto de cálculos estatísticos
+
+## Desenvolvedores:
+- Darice da Rocha Sousa
+- Weliton de Sousa Araujo
+
+## cálculos inclusos até o presente momento
+- Media
+- Media ponderada
+- Mediana
+- Moda
+- Desvio padrão
+- Desvio médio
+- Variância
+- Covariância
+- Amplitude
+- Erro padrão
+- Coeficiente de variação
+- Coeficiente de correlação
+- Soma dos quadrados dos desvios de dados
+
+[Veja a documentação](https://welitonsousa.vercel.app/post?id=lib-statistic-59a2ce35-a7c9-4aa3-8f5e-a5d632b21d6e)
+
+

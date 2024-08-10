@@ -144,7 +144,7 @@ theme:
 
   favicon: 'icons/Favorites.png'
   custom_dir: overrides
-  logo: 'icons/Services.png'
+  logo: 'images/Bookmark.png'
 
   font:
     text: Roboto
