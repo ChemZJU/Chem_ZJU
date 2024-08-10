@@ -150,7 +150,9 @@ theme:
     text: Roboto
 
 markdown_extensions:
-  - md_in_html
+  - toc:
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
   - admonition
   - attr_list
   - footnotes
@@ -161,8 +163,6 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.highlight
   - pymdownx.inlinehilite
-  - toc:
-      permalink: true
   - pymdownx.details # 需要点击才能展开的高亮块
   - pymdownx.blocks.admonition: # 必然展开的高亮块
       types:
@@ -182,6 +182,20 @@ markdown_extensions:
       - quote
   - pymdownx.blocks.tab:
       alternate_style: True
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
   - git-revision-date-localized:
