@@ -62,12 +62,13 @@ nav:
       - 量子化学: ElectiveMajorCourse/PhysicalChemistry/量子化学.md
       - 统计热力学: ElectiveMajorCourse/PhysicalChemistry/统计热力学.md
   - 思政类:
+    - Ideology and politics/index.md
     - 马克思主义基本原理(H): Ideology and politics/马克思主义基本原理(H).md
     - 毛概: Ideology and politics/毛概.md
     - 思想道德与法治: Ideology and politics/思想道德与法治.md
     - 习概: Ideology and politics/习概.md
     - 形势与政策Ⅰ&Ⅱ: Ideology and politics/形势与政策Ⅰ&Ⅱ.md
-    - 中国近代史纲要: Ideology and politics/中国近代史纲要.md
+    - 中国近代史纲要(H): Ideology and politics/中国近代史纲要(H).md
     - 选修课:
       - 社会主义发展史: Ideology and politics/elective course/社会主义发展史.md
       - 新中国史: Ideology and politics/elective course/新中国史.md
@@ -79,6 +80,7 @@ nav:
     - 现代化学方法论: Practice/现代化学方法论.md
     - 卓越化学计划科研实训: Practice/卓越化学计划科研实训.md
   - 通识课:
+    - GeneralKnowledge/index.md
     - 创新创业:
       - 职业生涯规划: GeneralKnowledge/创新创业/职规.md
     - 劳育:
