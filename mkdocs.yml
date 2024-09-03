@@ -19,6 +19,9 @@ nav:
     - 普通物理学Ⅱ(H): Basic/Physics2(H).md
     - 普通物理学实验Ⅰ(H): Basic/普通物理学实验1(H).md
     - 普通物理学实验Ⅱ(H): Basic/普通物理学实验2(H).md
+  - 计算机类:
+    - Python程序设计: Computer/Python.md
+    - C程序设计基础: Computer/C小.md
   - 专业必修:
     - 分析化学Ⅰ: CompulsoryMajorCourse/分析化学1.md
     - 分析化学Ⅱ: CompulsoryMajorCourse/分析化学2.md
