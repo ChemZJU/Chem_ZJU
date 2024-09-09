@@ -30,7 +30,7 @@ comments: true
 ---
 参考书籍
 
-[Tom Apostol. *Calculus, Volume 2*. Wiley.]()
+[Tom Apostol. *Calculus, Volume 2*. Wiley.](https://gitee.com/Simon67479956/zju-chem-open-source/tree/main/%E4%B8%93%E4%B8%9A%E8%AF%BE/%E5%BE%AE%E7%A7%AF%E5%88%86)
 
 ### 分数组成
 期中成绩占15%，到课情况占10%，两次小测占20%，作业占5%，期末考试占50%
