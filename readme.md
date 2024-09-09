@@ -3,4 +3,4 @@
 
 Under Construction ...
 
-网页通过Github pages进行发布，URL https://wing0night.github.io/Chem_ZJU/
+网页通过Github pages进行发布，URL https://chemzju.github.io/Chem_ZJU/
